@@ -58,9 +58,9 @@
 // console.log(result);
 
 //TEMPLATE STRINGS
-const title = 'Best reads of 2019';
-const author = 'Mario';
-const likes = 30;
+// const title = 'Best reads of 2019';
+// const author = 'Mario';
+// const likes = 30;
 
 // concatenation way
 // // let result = 'The blog called ' + title + ' by ' + author + ' has ' + likes + ' likes ';
@@ -71,16 +71,32 @@ const likes = 30;
 // console.log(result);
 
 //creating html templates
-let html = `
-<h2>${title}</h2>
-<p>By ${author}</p>
-<span>This blog has ${likes} likes</span>`
-console.log(html)
+// let html = `
+// <h2>${title}</h2>
+// <p>By ${author}</p>
+// <span>This blog has ${likes} likes</span>`
+// console.log(html)
 
 //BOOLEAN
 //NULL
 //UNDEFINED
 //OBJECT
+
+//ARRAYS: Used to store multiple data in a single variable e.g
+let names = ['shaun', 'ryu', 'chun-li'];
+// console.log(names);
+// names[1] = 'alvin'// to override the above statement or to replace an index
+// console.log(names[1]);// to get a particular index
+// console.log(names.length);//to get the length of array
+
+//ARRAY METHODS
+// let result = names.join(' , ');// to join the items in array together and to divide each array with a comma or any thing you specify
+// let result = names.indexOf('ryu');// to get the index of the names or item in the array specificed
+//let result = names.concat(['ken', 'crystal', 'alvin']);//to concatenate or add arrays together 
+//let result = names.push('ken');// to add to the array but this function only outputs the length of the updated array. however if you console log 'names' you can view the updated array; Note: it is a distruptive function
+//result = names.pop();// it logs or output the last index in array
+console.log(result);
+
 //SYMBOL
 
 // When you pass a value into a method, it is called an argument
