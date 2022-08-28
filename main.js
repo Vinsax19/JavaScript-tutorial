@@ -78,8 +78,10 @@
 // console.log(html)
 
 //BOOLEAN
-//NULL
-//UNDEFINED
+//NULL: it is said to be an intentional lack of value
+let age;
+console.log(age, age + 3, `the age is ${age} `);
+//UNDEFINED:While this is an unintentional lack of value
 //OBJECT
 
 //ARRAYS: Used to store multiple data in a single variable e.g
@@ -94,7 +96,7 @@ let names = ['shaun', 'ryu', 'chun-li'];
 // let result = names.indexOf('ryu');// to get the index of the names or item in the array specificed
 //let result = names.concat(['ken', 'crystal', 'alvin']);//to concatenate or add arrays together 
 //let result = names.push('ken');// to add to the array but this function only outputs the length of the updated array. however if you console log 'names' you can view the updated array; Note: it is a distruptive function
-//result = names.pop();// it logs or output the last index in array
+//result = names.pop();// it logs or output the last index in array that was popped off
 console.log(result);
 
 //SYMBOL
