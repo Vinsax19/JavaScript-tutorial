@@ -79,9 +79,10 @@
 
 //BOOLEAN
 //NULL: it is said to be an intentional lack of value
+
+//UNDEFINED:While this is an unintentional lack of value
 let age;
 console.log(age, age + 3, `the age is ${age} `);
-//UNDEFINED:While this is an unintentional lack of value
 //OBJECT
 
 //ARRAYS: Used to store multiple data in a single variable e.g
