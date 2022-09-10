@@ -78,15 +78,53 @@
 // console.log(html)
 
 //BOOLEAN
+
+//booleans and comparsions
+// console.log(true, false); 
+
+// METHODS THAT CAN RETURN BOOLEAN
+// let email = 'alvin.onichabor05@gmail.com';
+// let result = email.includes('@');//To check if the string above has the character '@' which was specified
+
+//COMPARSION OPERATORS
+ let age = 25;
+// console.log(age == 25);
+// console.log(age == 20);
+// console.log(age != 25);
+// console.log(age <= 25);
+// console.log(age > 25); 
+// console.log(age == 25);
+
+//loose comparsion (differnt types can still be equal)
+// console.log(age == 25);
+// console.log(age == '25');// the both will output 'true' because javascript does a type conversion in the background
+
+//Strict comparsion
+// console.log(age === 25);
+// console.log(age === '25');// they won't output the same results because are not totally the same. they are of different data types, but they are the same value
+
+//type conversion
+// let score = '100'
+
+// score = Number(score)// it's the way change data type
+// console.log(score + 1);
+// console.log(typeof score);// An operator to check data type of a value
+
+// console.log(result);
 //NULL: it is said to be an intentional lack of value
+// let age = null
+// console.log(age, age + 3, `the age is ${age} `);
+
+
 
 //UNDEFINED:While this is an unintentional lack of value
-let age;
-console.log(age, age + 3, `the age is ${age} `);
+// let age;
+// console.log(age, age + 3, `the age is ${age} `);
+
 //OBJECT
 
 //ARRAYS: Used to store multiple data in a single variable e.g
-let names = ['shaun', 'ryu', 'chun-li'];
+//let names = ['shaun', 'ryu', 'chun-li'];
 // console.log(names);
 // names[1] = 'alvin'// to override the above statement or to replace an index
 // console.log(names[1]);// to get a particular index
@@ -96,9 +134,9 @@ let names = ['shaun', 'ryu', 'chun-li'];
 // let result = names.join(' , ');// to join the items in array together and to divide each array with a comma or any thing you specify
 // let result = names.indexOf('ryu');// to get the index of the names or item in the array specificed
 //let result = names.concat(['ken', 'crystal', 'alvin']);//to concatenate or add arrays together 
-//let result = names.push('ken');// to add to the array but this function only outputs the length of the updated array. however if you console log 'names' you can view the updated array; Note: it is a distruptive function
-//result = names.pop();// it logs or output the last index in array that was popped off
-console.log(result);
+//let result = names.push('ken');// to add to the array but this function only outputs the length of the updated array. however if you console log 'names' you can view the updated array; Note: it is a destructive function
+//result = names.pop();// it logs or output the last index in array that was popped off.....It's also destructive
+// console.log(result);
 
 //SYMBOL
 
