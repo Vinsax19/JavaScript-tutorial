@@ -87,7 +87,7 @@
 // let result = email.includes('@');//To check if the string above has the character '@' which was specified
 
 //COMPARSION OPERATORS
- let age = 25;
+//  let age = 25;
 // console.log(age == 25);
 // console.log(age == 20);
 // console.log(age != 25);
